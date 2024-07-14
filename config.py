@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7067972319:AAEJDQGtoLwomyZjtlQTrKMBVFzoZtkrE6Y")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7067972319:AAFJhcwekLXnomb1E6m-Ne1ZKAN_HuWHNBY")
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "26977508"))
 
@@ -35,7 +35,7 @@ FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1001613294962"))
 FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001967719718"))
 FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "-1002111868179"))
 
-TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "50"))
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "𝐇𝐢 𝐃𝐮𝐝𝐞.. {first}\n\n𝐈 𝐀𝐦 𝐚 𝐅𝐢𝐥𝐞-𝐒𝐭𝐨𝐫𝐞 𝐛𝐨𝐭\n𝐘𝐨𝐮 𝐜𝐚𝐧 𝐚𝐜𝐜𝐞𝐬𝐬 𝐟𝐢𝐥𝐞𝐬 𝐭𝐡𝐫𝐨𝐮𝐠𝐡 𝐚 𝐬𝐩𝐞𝐜𝐢𝐟𝐢𝐜 𝐥𝐢𝐧𝐤..!")
